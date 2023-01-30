@@ -1,3 +1,266 @@
+:root {
+  --main-color: #ffffff;
+  --secondary-font-color: #2196f3;
+  --background-button-color: #2196f3;
+}
 body {
+  background-color: var(--main-color);
   font-family: "Roboto", sans-serif;
+}
+.links {
+  text-decoration: none;
+}
+
+.main-card {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.1;
+}
+
+.main-card:hover {
+  color: var(--secondary-font-color, #2196f3);
+}
+
+.part-one {
+  color: #2196f3;
+}
+
+.part-two {
+  color: black;
+}
+
+.agency {
+  color: #2196f3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.agency:hover {
+  color: var(--secondary-font-color, #2196f3);
+}
+
+.contacts {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.contacts:hover {
+  color: var(--secondary-font-color, #2196f3);
+}
+
+.pages {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.pages:hover {
+  color: var(--secondary-font-color, #2196f3);
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.item {
+  background-color: #ffffff;
+  width: 270px;
+  height: 368px;
+}
+
+.main {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 120px;
+  padding: 94px;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+}
+
+.main-button {
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.button-text {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.button-text:hover {
+  color: var(--secondary-font-color, #2196f3);
+}
+
+.header {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.description {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.list-description {
+  padding-bottom: 94px;
+}
+
+.explanation {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.team {
+  background-color: #f5f4fa;
+  width: 1600px;
+  padding-bottom: 94px;
+}
+
+.our-team {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.team-members {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.profession {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.main-footer {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+
+.part-logo {
+  color: #ffffff;
+}
+
+.digits {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.digits:hover {
+  color: var(--secondary-font-color, #2196f3);
+}
+
+.contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.contact:hover {
+  color: var(--secondary-font-color, #2196f3);
+}
+
+.secondary-button {
+  background-color: #f5f4fa;
+  height: 38px;
+  cursor: pointer;
+}
+
+.secondary-button:hover,
+.secondary-button:focus {
+  background-color: var(--background-button-color, #2196f3);
+}
+
+.all {
+  width: 121px;
+}
+
+.page {
+  width: 93px;
+}
+
+.app {
+  width: 114px;
+}
+
+.design {
+  width: 91px;
+}
+
+.marketing {
+  width: 121px;
+}
+
+.secondary-item {
+  background-color: #ffffff;
+  width: 370px;
+  height: 404px;
+}
+
+.press {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.text {
+  color: #212121;
+}
+
+.text:hover,
+.text:focus {
+  color: var(--main-color, #ffffff);
+}
+
+.secondary-description {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.page-name {
+  color: #757575;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.7;
 }
